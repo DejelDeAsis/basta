@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You!</title>
+    <style>
+       body {
+  background: linear-gradient(to bottom right, #F5F5F5, #0076cb);
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+.container {
+max-width: 600px;
+margin: 0 auto;
+padding: 40px 60px;
+background-color: #f2f2f2;
+border-radius: 25px;
+box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            color: #FF69B4;
+        }
+
+        .heart {
+            font-size: 10rem;
+            animation: heart .5s infinite alternate linear;
+            color: #FF69B4;
+        }
+
+        @keyframes heart {
+            from {
+                transform: scale(.7);
+            }
+            to{
+                transform: scale(.8);
+            }
+        }
+
+        p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            color: #7E7E7E;
+            margin-top: 1.5rem;
+        }
+
+        button {
+            display: inline-block;
+            margin-top: 2rem;
+            padding: 0.8rem 2.5rem;
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #FFFFFF;
+            background-color: #FF69B4;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        button:hover {
+            background-color: #ED5A9F;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>I love you, see you soon<3</h1>
+        <div class="heart">❤️</div>
+        <p>Thank you for being in my life. You mean everything to me and I can't wait to see you again soon. -Dejel </p>
+        <div><button id = homebutton>Back to Home</button></div>
+        <script>
+                        document.getElementById("homebutton").addEventListener("click", function(){
+                window.location.href = "index.html"
+            });
+        </script>
+    </div>
+</body>
+</html>

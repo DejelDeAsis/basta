@@ -1,0 +1,46 @@
+body {
+            background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+            background-attachment: fixed;
+            font-family: Arial, sans-serif;
+        }
+
+
+h1{
+    font-size: 36px;
+    color: #8B008B;
+    text-shadow: 1px 1px 2px #8B008B;
+    margin: 50px 0;
+}
+
+button{
+    font-size: 24px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 1px 1px 2px #8B008B;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+#yesButton{
+    background-color: #32CD32;
+    color: #FFF;
+}
+
+#yesButton:hover{
+    background-color: #228B22;
+    color: #FFF;
+}
+
+#no{
+    background-color: #FF4500;
+    color: #FFF;
+    left: 50px;
+    top: 50px;
+}
+
+#no:hover{
+    background-color: #8B0000;
+    color: #FFF;
+}
+
